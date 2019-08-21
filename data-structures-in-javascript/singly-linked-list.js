@@ -2,6 +2,12 @@
 // In simple words, a linked list consists of nodes where each node contains a data field and a reference(link)
 // to the next node in the list
 
+// Singly linked list is a basic linked list type. 
+// Singly linked list is a collection of nodes linked together in a sequential way where each node of singly
+// linked list contains a data field and an address field which contains the reference of the next node. 
+// Singly linked list can contain multiple data fields but should contain at least single address field 
+// pointing to its connected next node.
+
 function Node(data) {
   this.data = data;
   this.next = null;
