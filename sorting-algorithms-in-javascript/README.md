@@ -14,13 +14,31 @@ If you feel comfortable with the concept of each sorting algorithms and only wan
 
 - [x] Bubble sort
 
-  <img src="https://www.studytonight.com/data-structures/images/basic-bubble-sort.png" width="350px" height="250px" />
+  <img src="https://www.studytonight.com/data-structures/images/basic-bubble-sort.png" width="450px" height="350px" />
   
 - [x] Selection sort
+
+  <img src="https://www.codenuclear.com/wp-content/uploads/2017/08/Selection_Sort.jpg" width="450px" height="350px" />
+
 - [x] Insertion sort
+
+  <img src="https://www.studytonight.com/data-structures/images/basic-insertion-sort.png" width="450px" height="350px" />
+
 - [x] Shellsort
+
+  <img src="https://lh3.googleusercontent.com/proxy/1pQC-7jgNQq20fIF40KeCaoplobErIAKGMu_hbxRNYDXTFkV-nW0ihOmvcMXfm9KaC8ZiK0cgyYEJd8aLxcRI-n42y53Rjc" width="450px" height="350px" />
+
 - [x] Merge sort
+
+  <img src="https://www.101computing.net/wp/wp-content/uploads/Merge-Sort-Algorithm.png" width="450px" height="350px" />
+
 - [x] Quicksort
+
+  <img src="https://chercher.tech/images/kotlin/quick-sort-kotlin-algorithm.png" width="450px" height="350px" />
+
+- [x] Heap sort
+
+  <img src="https://miro.medium.com/max/3328/1*KBafG8K6xaO7cY8O30XHdQ.jpeg" width="450px" height="350px" />
 
 # A good way to compare all of them
 
