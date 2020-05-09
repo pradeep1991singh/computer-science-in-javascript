@@ -1,3 +1,22 @@
+/******************************************************
+** Merge sort,
+** In computer science, merge sort is an efficient, general-purpose, comparison-based sorting algorithm.
+** Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. 
+** Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945.
+**
+** Spec:
+** Worst complexity: n*log(n)
+** Average complexity: n*log(n)
+** Best complexity: n*log(n)
+** Space complexity: n
+** Method: Merging
+** Stable: Yes
+**
+** Time complexity of Merge Sort is O(n*Log n) in all the 3 cases (worst, average and best) as merge sort always divides the array in two halves and takes linear time to merge two halves.
+** It requires equal amount of additional space as the unsorted array. Hence its not at all recommended for searching large unsorted arrays. 
+** It is the best Sorting technique used for sorting Linked Lists.
+******************************************************/
+
 // array to sort
 const array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
 
