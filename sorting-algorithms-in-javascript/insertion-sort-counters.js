@@ -1,5 +1,5 @@
 /******************************************************
-** Sam as Insertion sort just count the no of time loops run for outer, inner and swap
+** Same as Insertion sort just count the no of time loops run for outer, inner and swap
 ** Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time.
 **  It is much less efficient on large lists than more advanced algorithms such as quick sort, heap sort, or merge sort.
 **
