@@ -1,3 +1,56 @@
+/******************************************************
+** Merge sort,
+** In computer science, merge sort is an efficient, general-purpose, comparison-based sorting algorithm.
+** Most implementations produce a stable sort, which means that the order of equal elements is the same in the input and output. 
+** Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945.
+**
+** Spec:
+** Worst complexity: n*log(n)
+** Average complexity: n*log(n)
+** Best complexity: n*log(n)
+** Space complexity: n
+** Method: Merging
+** Stable: Yes
+**
+** Time complexity of Merge Sort is O(n*Log n) in all the 3 cases (worst, average and best) as merge sort always divides the array in two halves and takes linear time to merge two halves.
+** It requires equal amount of additional space as the unsorted array. Hence its not at all recommended for searching large unsorted arrays. 
+** It is the best Sorting technique used for sorting Linked Lists.
+******************************************************/
+
+function mergeSort(list) {
+  if(list.length === 1) {
+    // return array if single or empty
+    return list;
+  }
+
+  let middle = Math.floor(list.length/2) // middle item;
+  let left = list.slice(0, middle);
+  let right = list.slice(middle);
+
+  return merge(mergeSort(left), mergeSort(right));
+}
+
+// compare the arrays item by item and return the concatenated result
+function merge(left, right) {
+  let result = [];
+  let indexLeft = 0;
+  let indexRight = 0;
+
+  while(indexLeft < left.length && indexRight < right.length) {
+    if(left[indexLeft] < right[indexRight]) {
+      result.push(left[indexLeft]);
+      indexLeft++;
+    } else {
+      result.push(right[indexRight]);
+      indexRight++;
+    }
+  }
+  return result.concat(left.slice(indexLeft)).concat(right.slice(indexRight))
+}
+
+console.log(mergeSort(array.slice())); // => [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+
+
 // array to sort
 var array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
 
