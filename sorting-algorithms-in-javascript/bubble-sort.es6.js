@@ -1,3 +1,25 @@
+/******************************************************
+** Bubble sort,
+** sometimes referred to as sinking sort,
+** is a simple sorting algorithm that repeatedly steps through the list,
+** compares adjacent elements and swaps them if they are in the wrong order.
+** The pass through the list is repeated until the list is sorted.
+**
+** Spec:
+** Worst complexity: n^2
+** Average complexity: n^2
+** Best complexity: n
+** Space complexity: 1
+** Method: Exchanging
+** Stable: Yes
+** Class: Comparison sort
+**
+** The main advantage of Bubble Sort is the simplicity of the algorithm.
+** The space complexity for Bubble Sort is O(1),
+** because only a single additional memory space is required i.e. for temp variable.
+** Also, the best case time complexity will be O(n), it is when the list is already sorted
+******************************************************/
+
 // array to sort
 const array = [9, 2, 5, 6, 4, 3, 7, 10, 1, 8];
 
