@@ -13,6 +13,9 @@ If you feel comfortable with the concept of each sorting algorithms and only wan
 # The sorting algorithms in the series
 
 - [x] Bubble sort
+
+  <img src="https://www.studytonight.com/data-structures/images/basic-bubble-sort.png" width="350px" height="250px" />
+  
 - [x] Selection sort
 - [x] Insertion sort
 - [x] Shellsort
