@@ -7,26 +7,7 @@
 ** Spec:
 ** Worst complexity: n^2
 ** Average complexity: n^2
-** Best complexity: n^2)
-** Space complexity: 1
-** Method: Selection
-** Stable: No
-** Class: Comparison sort
-**
-** Selection Sort requires two nested for loops to complete itself, 
-** one for loop is in the function selectionSort, 
-** and inside the first loop we are making a call to another function indexOfMinimum, which has the second(inner) for loop.
-******************************************************/
-
-/******************************************************
-** Selection sort,
-** In computer science, selection sort is an in-place comparison sorting algorithm.  ** It has an O(n²) time complexity, which makes it inefficient on large lists, 
-** and generally performs worse than the similar insertion sort.
-**
-** Spec:
-** Worst complexity: n^2
-** Average complexity: n^2
-** Best complexity: n^2)
+** Best complexity: n^2
 ** Space complexity: 1
 ** Method: Selection
 ** Stable: No
