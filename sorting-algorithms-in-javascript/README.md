@@ -33,6 +33,8 @@ If you feel comfortable with the concept of each sorting algorithms and only wan
   The space complexity for Bubble Sort is O(1),
   because only a single additional memory space is required i.e. for temp variable.
   Also, the best case time complexity will be O(n), it is when the list is already sorted
+  
+  Stable: Stable sorting algorithms maintain the relative order of records with equal keys (i.e. values). That is, a sorting algorithm is stable if whenever there are two records R and S with the same key and with R appearing before S in the original list, R will appear before S in the sorted list.
 
 
   <img src="https://www.studytonight.com/data-structures/images/basic-bubble-sort.png" width="450px" height="350px" />
